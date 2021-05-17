@@ -1,8 +1,8 @@
-function mostrar(e) {
+/*function mostrar(e) {
     if (e.classList.contains("fa-moon-o")) { //se tem lua
         e.classList.remove("fa-moon-o"); //remove classe icone lua
         e.classList.add("fa-sun-o"); //coloca classedo sol
-        e.style.color = "rgb(225, 225, 0)";
+        e.style.color = "rgb(225, 225, 0)";*/
         document.body.style.background = 'rgb(10, 10, 10)';
         document.querySelector('#userName').style.color = '#fff';
 
@@ -22,7 +22,7 @@ function mostrar(e) {
             circulos[i].style.filter = 'grayscale(100%)';
         }
 
-    } else { //senão
+    /*} else { //senão
         e.classList.remove("fa-sun-o"); //remove classe icone lua
         e.classList.add("fa-moon-o"); //coloca classedo sol
         e.style.color = "#585858";
@@ -46,4 +46,4 @@ function mostrar(e) {
         }
     }
 
-}
+}*/
